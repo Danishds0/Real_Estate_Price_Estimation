@@ -1,0 +1,194 @@
+@property --rotate {
+    syntax: "<angle>";
+    initial-value: 132deg;
+    inherits: false;
+  }
+  
+  :root {
+    --card-height: 65vh;
+    --card-width: calc(var(--card-height) / 1.5);
+  }
+  
+  
+  body {
+    min-height: 100vh;
+    background: #212534;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    box-sizing: border-box;
+    background-image: url("Images/estate_background.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  .predictparagragh{
+    color: #4B4E54;
+  }
+  
+  .card {
+    /* background: #f1e9f4; */
+    width: 739px;
+    height: 436px;
+    /* 
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    color: rgba(202, 214, 220, 0);
+    cursor: pointer;
+    */
+    padding: 10px;
+    font-size: 1.3em;
+
+    text-align: center;
+    border-radius: 6px;
+    font-family: inter;
+    /* color: #004eea; */
+    font-weight: bold;
+    background-color: rgba(255, 255, 255, 0.9);
+    border: none; 
+  }
+
+  .card2 {
+    display: block;
+    margin: 0 auto;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    max-width: 26%;
+    max-height: 100%;
+}
+  .card1 {
+    display: block;
+    margin: 0 auto;
+    position: absolute;
+    right: -10px;
+    top: -1px;
+    max-width: 26%;
+    max-height: 100%;
+    transform: rotate(180deg);
+  }
+
+  .location{
+    width: 263px;
+    height: 37px;
+    right: -39px;
+    top: 12px;
+    padding: 10px;
+  }
+  select {
+    transform: translate(-36%, 302%);
+    position: absolute;
+    /* left: 47.08%;
+    right: 8.13%;
+    top: 30.49%;
+    bottom: 60.42%; */
+    font-size: 15px;
+    background: rgba(128, 43, 177, 0.44);
+    border-radius: 10px;
+    border: none;
+  }
+  
+  input#bhks {
+    border: none;
+    position: absolute;
+    left: 421px;
+    right: 24px;
+    top: 46.35%;
+    bottom: 43.56%;
+    background: rgba(128, 43, 177, 0.44);
+    width: 120px;
+    height: 38px;
+    border-radius: 10px;
+}
+input#baths {
+  border: none;
+    position: absolute;
+    left: 75.58%;
+    right: 21.39%;
+    top: 202px;
+    background: rgba(128, 43, 177, 0.44);
+    width: 120px;
+    height: 38px;
+    border-radius: 10px;
+}
+input#areas {
+  border: none;
+  position: absolute;
+  left: 422px;
+  right: 21.39%;
+  top: 65.35%;
+  bottom: 80.56%;
+  background: rgba(128, 43, 177, 0.44);
+  width: 255px;
+  height: 38px;
+  border-radius: 10px;
+}
+
+.submit{
+  border: none;
+  position: absolute;
+  left: 513px;
+  right: 71px;
+  top: 358px;
+  bottom: 80.56%;
+  background: rgb(130 0 204);
+  width: 161px;
+  height: 43px;
+  border-radius: 10px;
+  color:aliceblue;
+}
+.result{
+  color:rgb(130 0 204);
+  right: 100px;
+}
+/* .form-floating input {
+  font-size: 14px;
+  padding: 10px;
+}
+
+.form-floating label {
+  font-size: 10px;
+} */
+/* .bed{
+  font-family: 10px;
+
+} */
+
+#cardedit{
+  width: 184px;
+  height: 97px;
+  left: 59px;
+  top: -2px;
+  /* padding: 8px; */
+  font-size: 10px;
+}
+.h2, h2 {
+  font-size: calc(1.2rem + .9vw);
+}
+
+footer {
+  background-color: #222;
+  color: #fff;
+  font-size: 14px;
+  bottom: 0;
+  position: absolute;
+  left: 0;
+  right: 0;
+  text-align: center;
+  z-index: 999;
+}
+
+footer p {
+  margin: 10px 0;
+}
+.red-heart {
+	color: red;
+}
+
+footer a {
+  color: #3c97bf;
+  text-decoration: none;
+}
